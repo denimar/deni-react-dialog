@@ -62,7 +62,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "991fd0a55a4b2d52a045"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "cb960ce70c9723d29d05"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -959,7 +959,7 @@ var Examples = function (_React$Component) {
       _DeniDialog2.default.box({
         width: '705px',
         height: '265px',
-        urlTemplate: 'examples/components/box/box-template.htm',
+        urlTemplate: 'box-template.htm',
         modal: false
       });
     }
