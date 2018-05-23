@@ -1,0 +1,57 @@
+.deni-react-dialog-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 320px;  
+  min-height: 75px;  
+
+  .deni-react-dialog-icon {
+    padding: 6px;
+
+    svg {
+      font-size: 42px;
+    }
+  }
+
+  &.confirm {
+    max-width: 450px;
+    .deni-react-dialog-icon {
+        color:#198FB0;
+    }    
+  }
+  
+  &.info {
+    max-width: 450px;
+    .deni-react-dialog-icon {
+        color:#198FB0;
+    }    
+  }
+
+  &.success {
+    max-width: 450px;
+    .deni-react-dialog-icon {
+        color:#53c68c;        
+    }    
+  }
+  
+  &.error {
+    max-width: 450px;
+    .deni-react-dialog-icon {
+        color:#e96363;        
+    }    
+  }
+
+  &.warning {
+    max-width: 450px;
+    .deni-react-dialog-icon {
+        color: #eca013;
+    }    
+  }
+  
+  .deni-react-dialog-message {
+      color: #404040;
+      flex: 1;
+   }  
+
+}

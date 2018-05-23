@@ -1,0 +1,100 @@
+#root {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  font-family: arial,tahoma;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .examples-container {
+    flex: 1;
+    padding: 25px;
+
+    .examples-item-title {
+      font-weight: bold;
+      font-size: 28px;
+      color: #336699;
+      display: flex;
+      align-items: center;
+      border-top: solid 2px #a3c0dc;
+      background-color: #edf2f8;
+
+      .dialog-theme {  
+        margin-top: -6px;
+        label {
+          color: black;
+          margin-left: 25px;
+          margin-right: 5px;
+          font-size: 12px;
+          font-weight: normal;
+        }
+        span {
+          color: #4681b9;
+          font-size: 11px;
+          margin-left: 10px;
+          font-weight: normal;
+        }
+      }  
+    }
+
+    h1 {
+      color: #336699;
+    }
+
+    fieldset {
+      padding: 25px;
+      font-size: 12px;
+      border: solid 1px #c3e2ee;
+    }
+
+    legend {
+      padding: 2px 8px;
+      color: #1c4f63;
+      font-size: 14px;
+      width: auto !important;
+      margin-bottom: auto;
+      border-bottom: 0;
+    }
+
+    button {
+      margin-right: 6px;
+      color: #1c4f63;
+      height: 24px;
+    }
+  }
+}
+
+.example-item-box-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+  .example-item-box-image {
+
+    img {
+      width: 310px;
+    }
+  }
+  .example-item-box-body {
+    color: #222222;    
+    font-family: arial, sans-serif-light, sans-serif;    
+    font-size: 13px;
+    padding: 0px 15px;
+
+    .example-item-box-body-title {
+      font-size: 30px !important;
+      margin-bottom: 5px;
+    }
+
+    .example-item-box-body-subtitle {    
+      color: #777777;
+      margin-bottom: 5px;      
+    }  
+
+    .example-item-box-body-text {    
+    }  
+  }
+}
