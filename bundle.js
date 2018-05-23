@@ -62,7 +62,7 @@
 /******/ 	}
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "cb960ce70c9723d29d05"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "055a2a57220db266bd24"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -1068,7 +1068,7 @@ var Examples = function (_React$Component) {
             _react2.default.createElement(
               'span',
               null,
-              'ex.: DeniDlg.setTheme(\'red\')'
+              'ex.: DeniDlg.setTheme(\'green\')'
             )
           )
         ),
