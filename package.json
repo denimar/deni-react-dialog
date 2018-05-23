@@ -1,6 +1,6 @@
 {
   "name": "deni-react-dialog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Denimar de Moraes <denimar@gmail.com>",
   "description": "A simple way to create dialogs in React.",
   "main": "build/deni-react-dialog.js",
