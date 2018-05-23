@@ -10,7 +10,7 @@ class Examples extends React.Component {
     DeniDlg.box({
       width: '705px',
       height: '265px',      
-      urlTemplate: 'examples/components/box/box-template.htm',
+      urlTemplate: 'box-template.htm',
       modal: false
     });    
   }
