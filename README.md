@@ -10,7 +10,7 @@ A simple way to create dialogs in React.
 
 ```javascript
 
-import DeniDlg from '../../../src/components/DeniDialog'
+import DeniDlg from 'deni-react-dialog'
 ...
 
   buttonClickHandler() {
